@@ -8,8 +8,8 @@ s3 = boto3.client('s3')
 
 input_bucket = 'input-bucket-23'
 output_bucket = 'output-bucket-23'
-access_key = 'AKIAYMYGIKNLGX475PGD'
-secret_key = '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'
+access_key = 
+secret_key = 
 region = 'us-east-1'
 processed_files = set()
 lambda_client = boto3.client('lambda',aws_access_key_id=access_key,
